@@ -37,7 +37,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
+            <groupId>org.apache.logging.log4j.lazy</groupId>
             <artifactId>log4j-api</artifactId>
             <version>${log4j2.version}</version>
         </dependency>
@@ -49,7 +49,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.slf4j</groupId>
+            <groupId>org.slf4j.lazy</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.5.2</version>
         </dependency>
